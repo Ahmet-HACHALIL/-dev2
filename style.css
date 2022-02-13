@@ -1,0 +1,153 @@
+/******************** index ********************/
+
+body {
+    background-color: #cccfff;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+.header {
+    background-color: #FEFFE4;
+    padding: 5px;
+    margin-top: 4px;
+    border-radius: 3px;
+}
+
+h1 {
+    color: midnightblue;
+}
+
+img {
+    margin-top: 4px;
+    width: 100%;
+    margin-top: 7px;
+    width: 100%;
+    height: 440px;
+    border-radius: 8px;
+}
+
+ul li {
+    display:inline;
+    background-color: #FEFFE4;
+    margin: 10px;
+    font-size: 23px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+}
+
+a:hover {
+    color: rgb(255, 87, 87);
+  }
+
+.footer {
+    margin-top: 30px;
+}
+
+h2 {
+    color: midnightblue;
+}
+
+p {
+    font-size: larger;
+    width: 95%;
+    margin-left: 28px;
+    text-align: left;
+    line-height: 27px;
+}
+
+.programlama_dili_title {
+    text-align: left;
+    margin-left: 28px;
+    color: brown;
+
+}
+
+/******************** diller ********************/
+
+.image-list-small {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    text-align: left;
+    padding: 0;
+}
+
+.image-list-small li {
+    display: inline-block;
+    width: 260px;
+    margin: 0 12px 30px;
+}
+
+.image-list-small li > a {
+    display: block;
+    text-decoration: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 137px;
+    margin: 0;
+    padding: 0;
+    border: 4px solid #ffffff;
+    outline: 1px solid #d0d0d0;
+    box-shadow: 0 2px 1px #DDD;
+    transition: .25s;
+}
+
+.image-list-small li img {
+    width: 100%; /* To make the images responsive */
+    height: auto;
+}
+
+.image-list-small li > a:hover {
+    transform: scale(1.1);
+    transition: .25s;
+}
+
+.image-list-small .details {
+    margin-top: 13px;
+}
+
+.image-list-small .details h3 {
+    display: block;
+    font-size: 14px;
+    margin: 0 0 3px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+  .image-list-small .details h3 a {
+    color: #303030;
+    text-decoration: none;
+}
+
+.image-list-small .details .image-author {
+    display: block;
+    color: #717171;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+    margin-left: 3px;
+}
+
+@media only screen and (max-wdith: 640px){
+    .image-list-small{
+       max-width: 100%;
+    }
+    .image-list-small li > a {
+       width: 50%;
+    }
+}
+
+h3 {
+    text-align: center;
+}
+
+/******************** Hakkımızda ********************/
+
+#hakkimizda {
+    margin-left: 3px;
+}
